@@ -1,0 +1,25 @@
+body {
+	background-color: silver;
+	text-align: center;
+	cursor: url('punchCursor.cur'), default;
+}
+
+#game {
+	width: 1150px;
+	height: 600px;
+	background-color: white;
+	margin-left: 5%;
+	max-width: 80%;
+	border: 2px dashed red;
+	position: absolute;
+	cursor: url('punchCursor.cur'), default;
+}
+
+.circle {
+	border-radius: 100%;
+	background-size: 100% 100%;
+	background-image: url("fmFace.ico");
+	background-repeat: no-repeat;
+	position: absolute;
+	cursor: url('punchCursor.cur')
+}
