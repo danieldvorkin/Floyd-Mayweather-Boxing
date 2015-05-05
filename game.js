@@ -31,7 +31,7 @@ function Circle(elem){
 	this.diameter = 30 + Math.random() * 50;
 	this.x = (Math.random() * 800);
 	this.y = (Math.random() * 600);
-	this.speed = 600 + Math.random() * 500;
+	this.speed = 300 + Math.random() * 500;
 	this.elem = elem;
 
 	this.elem.css({
